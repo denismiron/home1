@@ -27,7 +27,7 @@ public class Main {
         autoPark.addElectricCar(electricCar1);
         autoPark.addElectricCar(electricCar2);
 
-        System.out.println(autoPark.calculateCarsCoast());
+        System.out.println("Total Cost:"+autoPark.calculateCarsCost());
 
         for (GasCar auto : autoPark.sortByFuelConsumption()) {
             auto.showInfoGasCar();
